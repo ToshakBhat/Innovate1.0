@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".SuccessActivity">
+
+    <Button
+        android:id="@+id/expert"
+        android:layout_width="169dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="64dp"
+        android:text="Talk to Expert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solutions" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:text="Scorching of Leaves:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/solutions"
+        android:layout_width="337dp"
+        android:layout_height="344dp"
+        android:layout_marginTop="52dp"
+        android:text="Scorching of leaf margins is the characteristic symptom of potassium deficiency. Scorching starts from tip downwards. Fruit quality is reduced. Trees with potassium deficiency are easily prone to pest and disease attack."
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

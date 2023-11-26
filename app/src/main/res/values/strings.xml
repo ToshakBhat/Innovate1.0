@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kisan Sarthi</string>
+    <string name="kisan1">CROP LIFECYCLE TRACKING</string>
+    <string name="kisan4">CROP RECOMMEND</string>
+    <string name="kisan3">CROP SPECIFIC HELP</string>
+    <string name="Head">Kisaan Ka Saarthi</string>
+    <string name="Farmers">DUNIYA-DAARI</string>
+    <string name="Experts">SAARTHI</string>
+    <string name="description">Apni pareshani ke liye Speak button ko dabayein</string>
+    <string name="solutions">
+scorching of leaf margins is the characteristic symptom of potassium deficiency.
+Scorching starts from tip downwards. Fruit quality is reduced. Trees with potassium deficiency are easily prone to pest and disease attack.
+</string>
+
+</resources>
